@@ -23,7 +23,7 @@ const config = {
 		dest: 'dist/scripts'
 	}, browserSync: {
 		active: false,
-		localURL: 'gulpstarter.local'
+		localURL: 'mylocalsite.local'
 	}
 };
 
