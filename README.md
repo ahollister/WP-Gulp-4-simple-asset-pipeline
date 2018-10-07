@@ -37,17 +37,16 @@ That's it!
 `localURL` - This has to match the URL you are viewing the local site with.
 
 ### Example: 
-`const config = {
-  styles: {
-    src: 'assets/styles/styles.scss',
-    srcDir: 'assets/styles',
-    dest: 'dist/styles'
-  }, scripts: {
-    src: 'assets/scripts/**/*.js',
-    dest: 'dist/scripts'
-  }, browserSync: {
-    active: true,
-    localURL: 'mylocalsite.dev'
-  }
-};`
-
+    const config = {
+      styles: {
+        src: 'assets/styles/styles.scss',
+        srcDir: 'assets/styles',
+        dest: 'dist/styles'
+      }, scripts: {
+        src: 'assets/scripts/**/*.js',
+        dest: 'dist/scripts'
+      }, browserSync: {
+        active: true,
+        localURL: 'mylocalsite.dev'
+      }
+    };
