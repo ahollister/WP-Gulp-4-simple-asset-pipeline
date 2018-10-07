@@ -1,0 +1,25 @@
+{
+  "name": "wp-gulp-4-simple-asset-pipeline",
+  "version": "1.0.0",
+  "description": "A gulpfile.js and associated package.json for use in WordPress projects. Uses Gulp 4 and processes SCSS and JS asynchronously.",
+  "main": "gulpfile.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "autoprefixer": "^9.1.5",
+    "browser-sync": "^2.24.7",
+    "cssnano": "^4.1.4",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
+  }
+}
