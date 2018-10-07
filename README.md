@@ -16,15 +16,22 @@ Requires that you have 'gulp-cli' installed globally, if you are still using the
 That's it!
 
 ## Configuration
-The config object allows you to set the following values for __SCSS__:
+### The config object allows you to set the following values for SCSS:
+
 `src` - The source file for compilation that contains your final import statements, should import everything that you want in the final file.
+
 `srcDir` - The directory which contains all your SCSS files, this is the dir that the watch task watches for file changes to recompile automatically.
+
 `dest` - The directory where you want your final CSS file to end up.
 
-The config object allows you to set the following values for __JavaScript__:
+### The config object allows you to set the following values for JavaScript:
+
 `src` - The source file/files which gulp will process and watch for changes.
+
 `dest` - The directory where you want your processed JS file to end up.
 
-The config object allows you to set the following values for __BrowserSync__:
+### The config object allows you to set the following values for BrowserSync:
+
 `active` - Determines whether BrowserSync will run, true or false, false by default.
+
 `localURL` - This has to match the URL you are viewing the local site with, .
