@@ -1,0 +1,2 @@
+# WP-Gulp-4-simple-asset-pipeline
+A gulpfile.js and associated package.json for use in WordPress projects, (although it can easily be used independently of WP, just plug desired src and dest directories into the config object). Uses Gulp 4 and processes SCSS and JS into minified, concatenated files, with support for globbed SCSS imports, CSS autoprefixing, Babel preset-env, sourcemaps, BrowserSync, and a watch task. Gulp 4 includes support for parallel tasks, so it's quick since it can process SCSS and JS asynchronously.
