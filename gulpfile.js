@@ -72,10 +72,21 @@ function browserSyncTask() {
 	}
 }
 
+// Reloads browsers that are using browsersync
+function browserSyncReload(done) {
+	browserSync.reload();
+	done();
+}
+
 // Watch directories, and run specific tasks on file changes
 function watch() {
 	gulp.watch(config.styles.srcDir, styles);
 	gulp.watch(config.scripts.src, scripts);
+	
+	// Reload browsersync when PHP files change, if active
+	if (config.browserSync.active) {
+		gulp.watch('./**/*.php', browserSyncReload);
+	}
 }
 exports.watch = watch;
 
